@@ -1,4 +1,4 @@
-me_hungry = False
+me_hungry = True
 me_tired = False
 
 if me_hungry and me_tired == True:
