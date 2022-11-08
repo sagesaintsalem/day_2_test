@@ -33,3 +33,12 @@ print(meals)
 
 #I convert thee to a list
 print(list(meals)) #Notice how it only puts in the keys, not the values.
+
+
+countries = {
+    "Scotland":{"capital":"Edinburgh", "population":5000000},
+    "Germany":{"capital":"Berlin", "population":60000000},
+    "France":{"capital":"Paris", "population":60000000}
+}
+
+print(countries["Germany"]["population"])

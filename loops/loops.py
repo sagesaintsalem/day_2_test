@@ -24,7 +24,20 @@
 #     print(f"You typed {line}...")
 # print(f"You typed {line} and escaped the loop!")
 
-numbers = [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]
 
-for i in numbers:
-    print(i)
+# for i in numbers:
+#     print(i)
+#     print("and")
+
+# total = 0
+
+# for num in numbers:
+#     total = total + num
+# print("is")
+# print(total)
+
+chickens = ["Gary", "Stu", "Zaarlak", "Irene"]
+
+for chicken in chickens:
+    print(chicken)
