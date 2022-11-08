@@ -8,3 +8,12 @@ chickens = [
 
 for chicken in chickens:
     print(f'{chicken["name"]} is {chicken["age"]}')
+
+total_eggs = 0
+
+for chicken in chickens:
+    total_eggs += chicken["eggs"]
+    chicken["eggs"] = 0
+
+print(f'{total_eggs} eggs collected')
+print(chickens)
