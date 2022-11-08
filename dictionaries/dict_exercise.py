@@ -1,4 +1,5 @@
-avengers = {"Iron Man":{
+avengers = {
+    "Iron Man":{
     "name":"Tony Stark", 
     "attacks":{
         "punch":10, "kick":100}},
