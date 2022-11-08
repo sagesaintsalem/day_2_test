@@ -8,3 +8,6 @@ elif me_tired or me_hungry == True:
 else:
     print("Me happy!")
 
+print("")
+
+print("Now leave me alone!")
