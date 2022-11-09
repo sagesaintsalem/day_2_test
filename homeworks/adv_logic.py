@@ -3,15 +3,15 @@
 numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 
 # 1. Print out a list of the even integers:
-# even_nums = []
-# for i in numbers:
-#     if i % 2 == 0:
-#         even_nums.append(i)
-# print(even_nums)
+even_nums = []
+for i in numbers:
+     if i % 2 == 0:
+         even_nums.append(i)
+ print(even_nums)
 
 
 # 2. Print the difference between the largest and smallest value:
-#print(max(numbers) - min(numbers))
+print(max(numbers) - min(numbers))
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 for x in range(len(numbers)-1):
