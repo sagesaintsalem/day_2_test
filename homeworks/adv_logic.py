@@ -20,13 +20,36 @@ for x in range(len(numbers)-1):
         print(True)
         break
 
+#Alternative solution from class
+result = False
+index = 0
+for number in numbers:
+     if (number == 2 and numbers[index-1] == 2):
+          result = True
+     index += 1
+print(result)
+          
 #I stopped here because I am very tired - Rita
 
 # 4. Print the sum of the numbers, 
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
 #    
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
+sum_tot = 0
+stop_adding = False
+for y in numbers:
+     if y == 6:
+          stop_adding = True
+     elif stop_adding:
+          if y == 7:
+               stop_adding = False
+     else:
+          sum_tot += y
+print(sum_tot)
 
+    
+               
+               
 
 # 5. HARD! Print the sum of the numbers. 
 #    Except the number 13 is very unlucky, so it does not count.
@@ -35,8 +58,16 @@ for x in range(len(numbers)-1):
 #
 #    So [5, 13, 2] would have sum of 5. 
 
-
-
+total = 0
+index = 0
+for number in numbers:
+     if number == 13 or numbers[index-1] == 13:
+          pass
+     else:
+          total += number
+     index += 1
+     
+ print(total)
 
 
 
